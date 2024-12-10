@@ -41,3 +41,5 @@ data/data_versioning/*
 
 # MLflow
 mlruns/
+*.DS_Store
+venv/

@@ -1,0 +1,22 @@
+# Azure Configuration
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=harmlopsworksp4003657542;AccountKey=6Sof3LDy/6gA9GIvcmFdn2FSH0vg6O4xrqrdLKPGBns1u2I3pppd8IMaNE2h5XCy+uJZU7+juHt6+AStMpFb3g==;EndpointSuffix=core.windows.net" 
+container_name: "datasets"
+mlflow_tracking_uri: "your_mlflow_uri"
+
+# Data Processing/ Data Paths
+raw_data_path: "data/raw"
+processed_data_path: "data/processed"
+data_version_path: "data/data_versioning"
+
+# Model Parameters
+model_params:
+  n_estimators: 100
+  max_depth: 10
+  random_state: 42
+
+# Training Parameters
+train_test_split: 0.2
+validation_split: 0.2
+
+# Evaluation
+performance_threshold: 0.05

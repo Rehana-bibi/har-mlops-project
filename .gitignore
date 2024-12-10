@@ -22,7 +22,7 @@ wheels/
 *.egg
 
 # Data
-data/raw/*
+# data/raw/*
 data/processed/*
 data/data_versioning/*
 !data/raw/.gitkeep

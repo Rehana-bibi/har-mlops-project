@@ -1,15 +1,45 @@
 # Azure Configuration
-azure_storage_connection_string: "your_connection_string"
-container_name: "har-data"
-mlflow_tracking_uri: "your_mlflow_uri"
-
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=harmlopsworksp4003657542;AccountKey=6Sof3LDy/6gA9GIvcmFdn2FSH0vg6O4xrqrdLKPGBns1u2I3pppd8IMaNE2h5XCy+uJZU7+juHt6+AStMpFb3g==;EndpointSuffix=core.windows.net"
+container_name: "datasets"
+mlflow_tracking_uri: "azureml://northeurope.api.azureml.ms/mlflow/v1.0/subscriptions/b0d526c6-7ca6-45c4-aff1-080cd0d36103/resourceGroups/har-mlops-rg/providers/Microsoft.MachineLearningServices/workspaces/har-mlops-worksp"
+azure:
+  experiment_name: 'HAR_experiment'
+  compute_target: 'cpu-cluster'
+ 
 # Data Processing
 raw_data_path: "data/raw"
 processed_data_path: "data/processed"
 data_version_path: "data/data_versioning"
 
+# Data Sources
+data:
+  train_data: 
+    features: 'train/X_train.txt'
+    labels: 'train/y_train.txt'
+  test_data:
+    features: 'test/X_test.txt'
+    labels: 'test/y_test.txt'
+
+# Preprocessing Parameters
+preprocessing:
+  window_size: 128
+  overlap: 0.5
+  scaling: 'standard'
+
+# Feature Engineering
+features:
+  time_domain:
+    - mean
+    - std
+    - max
+    - min
+  frequency_domain:
+    - fft_mean
+    - fft_std
+
 # Model Parameters
 model_params:
+  type: 'random_forest'
   n_estimators: 100
   max_depth: 10
   random_state: 42

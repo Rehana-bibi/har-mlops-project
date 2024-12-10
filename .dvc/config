@@ -1,0 +1,12 @@
+[core]
+    remote = datasets_remote
+['remote "dataset_remote"']
+    url = azure://dataset
+    connection_string = DefaultEndpointsProtocol=https;AccountName=harmlopsworksp4003657542;AccountKey=6Sof3LDy/6gA9GIvcmFdn2FSH0vg6O4xrqrdLKPGBns1u2I3pppd8IMaNE2h5XCy+uJZU7+juHt6+AStMpFb3g==;EndpointSuffix=core.windows.net
+['remote "model_remote"']
+    url = azure://model
+['remote "output_remote"']
+    url = azure://output
+['remote "datasets_remote"']
+    url = azure://datasets
+    connection_string = DefaultEndpointsProtocol=https;AccountName=harmlopsworksp4003657542;AccountKey=6Sof3LDy/6gA9GIvcmFdn2FSH0vg6O4xrqrdLKPGBns1u2I3pppd8IMaNE2h5XCy+uJZU7+juHt6+AStMpFb3g==;EndpointSuffix=core.windows.net

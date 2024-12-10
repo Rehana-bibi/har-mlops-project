@@ -1,0 +1,52 @@
+# Azure Configuration
+azure_storage_connection_string: "your_connection_string"
+container_name: "har-data"
+mlflow_tracking_uri: "your_mlflow_uri"
+azure:
+  experiment_name: 'HAR_experiment'
+  compute_target: 'cpu-cluster'
+
+# Data Processing
+raw_data_path: "data/raw"
+processed_data_path: "data/processed"
+data_version_path: "data/data_versioning"
+
+# Data Sources
+data:
+  train_data: 
+    features: 'train/X_train.txt'
+    labels: 'train/y_train.txt'
+  test_data:
+    features: 'test/X_test.txt'
+    labels: 'test/y_test.txt'
+
+# Preprocessing Parameters
+preprocessing:
+  window_size: 128
+  overlap: 0.5
+  scaling: 'standard'
+
+# Feature Engineering
+features:
+  time_domain:
+    - mean
+    - std
+    - max
+    - min
+  frequency_domain:
+    - fft_mean
+    - fft_std
+
+# Model Parameters
+model_params:
+  type: 'random_forest'
+  n_estimators: 100
+  max_depth: 10
+  random_state: 42
+
+# Training Parameters
+train_test_split: 0.2
+validation_split: 0.2
+
+# Evaluation
+performance_threshold: 0.05

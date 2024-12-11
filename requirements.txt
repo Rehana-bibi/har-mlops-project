@@ -1,0 +1,10 @@
+# Required libraries for the Human Activity Recognition project
+# bellow is Command for running this requirement all in one
+# pip install -r requirements.txt.
+
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+mlflow

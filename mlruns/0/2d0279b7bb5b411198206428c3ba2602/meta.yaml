@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/2d0279b7bb5b411198206428c3ba2602/artifacts
+end_time: 1733983855957
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d0279b7bb5b411198206428c3ba2602
+run_name: loud-lamb-868
+run_uuid: 2d0279b7bb5b411198206428c3ba2602
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733983834765
+status: 3
+tags: []
+user_id: macbookair

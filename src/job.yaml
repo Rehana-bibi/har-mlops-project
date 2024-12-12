@@ -1,7 +1,7 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 type: command
-name: har-classification-20241213
-display_name: "HAR Classification Job"
+name: har-activity-recognition-202412131
+display_name: "HAR Activity Recognition Job"
 code: .
 command: python main.py --data_path ${{ inputs.training_data }}
 inputs:
@@ -12,3 +12,5 @@ environment: azureml://registries/azureml/environments/sklearn-1.1/versions/17
 compute: har-mlops-cluster
 experiment_name: har-project
 description: Human Activity Recognition (HAR) classification project using scikit-learn
+
+

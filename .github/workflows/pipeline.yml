@@ -1,0 +1,30 @@
+name: Test Action Workflow
+
+# Triggers the workflow on every push or pull request to the main branch
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the code
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+
+      # Step 2: Print working directory
+      - name: Print working directory
+        run: pwd
+
+      # Step 3: List all files in the repository
+      - name: List repository files
+        run: ls -la
+
+      # Step 4: Display environment variables
+      - name: Display environment variables
+        run: env

@@ -7,11 +7,33 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score, f1_score
 import matplotlib.pyplot as plt
-import seaborn as sns
+import argparse
+import os
 
-# Step 2: Load the dataset
-file_path = './data/har.csv'  # Corrected path to the dataset
-df = pd.read_csv(file_path)
+
+# Add argument parser to accept data_path
+# parser = argparse.ArgumentParser()
+# parser.add_argument("--data_path", type=str, help="Path to the input data")
+# args = parser.parse_args()
+parser = argparse.ArgumentParser()
+parser.add_argument("--data_path", type=str, help="Path to the input data", default="./data/har.csv")
+args = parser.parse_args()
+
+
+# Add these debug lines after your argparse setup
+print("Current working directory:", os.getcwd())
+print("Attempting to read file from:", os.path.abspath(args.data_path))
+
+
+# Check if file exists at the path
+if not os.path.exists(args.data_path):
+    print(f"Error: File not found at {args.data_path}")
+    print("Please provide correct path using --data_path argument")
+    exit(1)
+
+
+# Step 2: Load the dataset using the provided data_path
+df = pd.read_csv(args.data_path)
 
 # Confirm the dataset is loaded correctly
 print("First 5 Rows of Dataset:")
@@ -58,29 +80,21 @@ print(classification_report(y_test, lr_preds))
 print(f"Accuracy: {accuracy_score(y_test, lr_preds):.2f}")
 print(f"F1 Score: {f1_score(y_test, lr_preds, average='weighted'):.2f}")
 
-# Step 7: Visualize feature importance (Random Forest)
-# plt.figure(figsize=(10, 6))
-# feature_importances = rf_model.feature_importances_
-# sns.barplot(x=feature_importances, y=X.columns)  # Fixed mismatched dimensions
-# plt.title("Feature Importance (Random Forest)")
-# plt.xlabel("Importance")
-# plt.ylabel("Features")
-# plt.tight_layout()
-# plt.show()
-
 from sklearn.model_selection import cross_val_score
 scores = cross_val_score(rf_model, X, y, cv=5, scoring='accuracy')
 print("Cross-Validation Scores:", scores)
 print("Mean Accuracy:", scores.mean())
 
-
-
 # Step 8: Visualize top 10 feature importance (Random Forest)
 top_features = pd.Series(rf_model.feature_importances_, index=X.columns).nlargest(10)
 plt.figure(figsize=(10, 6))
-sns.barplot(x=top_features.values, y=top_features.index)
+plt.barh(top_features.index, top_features.values)  # Using barh for horizontal bars
 plt.title("Top 10 Feature Importances (Random Forest)")
 plt.xlabel("Importance")
 plt.ylabel("Features")
 plt.tight_layout()
 plt.show()
+
+
+
+

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/436712115545057558/18698575d28d486ba96503019f7dcf2a/artifacts
+end_time: 1734055407778
+entry_point_name: ''
+experiment_id: '436712115545057558'
+lifecycle_stage: active
+run_id: 18698575d28d486ba96503019f7dcf2a
+run_name: caring-shad-488
+run_uuid: 18698575d28d486ba96503019f7dcf2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734055407772
+status: 3
+tags: []
+user_id: macbookair

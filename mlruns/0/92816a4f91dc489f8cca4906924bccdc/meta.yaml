@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/92816a4f91dc489f8cca4906924bccdc/artifacts
+end_time: 1734066255053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92816a4f91dc489f8cca4906924bccdc
+run_name: bemused-snipe-607
+run_uuid: 92816a4f91dc489f8cca4906924bccdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734066250754
+status: 3
+tags: []
+user_id: macbookair

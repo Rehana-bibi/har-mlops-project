@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/436712115545057558/d17d7cffc8044d4b9a106d5fa027bcb3/artifacts
+end_time: 1734055397773
+entry_point_name: ''
+experiment_id: '436712115545057558'
+lifecycle_stage: active
+run_id: d17d7cffc8044d4b9a106d5fa027bcb3
+run_name: LogisticRegression_HAR
+run_uuid: d17d7cffc8044d4b9a106d5fa027bcb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734055394968
+status: 3
+tags: []
+user_id: macbookair

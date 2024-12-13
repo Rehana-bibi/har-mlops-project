@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/436712115545057558/5bc5503f28d5452b95016d8cbdd9795d/artifacts
+end_time: 1734035627948
+entry_point_name: ''
+experiment_id: '436712115545057558'
+lifecycle_stage: active
+run_id: 5bc5503f28d5452b95016d8cbdd9795d
+run_name: nimble-sloth-832
+run_uuid: 5bc5503f28d5452b95016d8cbdd9795d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734035615295
+status: 3
+tags: []
+user_id: macbookair

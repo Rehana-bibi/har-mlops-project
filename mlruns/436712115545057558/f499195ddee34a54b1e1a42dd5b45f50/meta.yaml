@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/436712115545057558/f499195ddee34a54b1e1a42dd5b45f50/artifacts
+end_time: 1734047988036
+entry_point_name: ''
+experiment_id: '436712115545057558'
+lifecycle_stage: active
+run_id: f499195ddee34a54b1e1a42dd5b45f50
+run_name: RandomForest_HAR
+run_uuid: f499195ddee34a54b1e1a42dd5b45f50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734047960744
+status: 3
+tags: []
+user_id: macbookair

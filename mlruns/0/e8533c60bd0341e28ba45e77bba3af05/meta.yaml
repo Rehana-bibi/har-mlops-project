@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/e8533c60bd0341e28ba45e77bba3af05/artifacts
+end_time: 1734063892999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e8533c60bd0341e28ba45e77bba3af05
+run_name: nervous-hawk-863
+run_uuid: e8533c60bd0341e28ba45e77bba3af05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063889078
+status: 3
+tags: []
+user_id: macbookair

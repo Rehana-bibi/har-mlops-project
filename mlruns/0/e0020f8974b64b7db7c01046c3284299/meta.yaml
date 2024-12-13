@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/e0020f8974b64b7db7c01046c3284299/artifacts
+end_time: 1734064048296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0020f8974b64b7db7c01046c3284299
+run_name: intrigued-flea-405
+run_uuid: e0020f8974b64b7db7c01046c3284299
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734064045831
+status: 3
+tags: []
+user_id: macbookair

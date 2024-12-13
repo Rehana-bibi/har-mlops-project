@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/436712115545057558/05ed908fa2644c5993a2ee918d436100/artifacts
+end_time: 1734032914349
+entry_point_name: ''
+experiment_id: '436712115545057558'
+lifecycle_stage: active
+run_id: 05ed908fa2644c5993a2ee918d436100
+run_name: amusing-shrew-216
+run_uuid: 05ed908fa2644c5993a2ee918d436100
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734032912857
+status: 3
+tags: []
+user_id: macbookair

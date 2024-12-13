@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/6fa8bb90c5ef474f9669252a95bb93a5/artifacts
+end_time: 1734064036707
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6fa8bb90c5ef474f9669252a95bb93a5
+run_name: upbeat-wren-148
+run_uuid: 6fa8bb90c5ef474f9669252a95bb93a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734064032404
+status: 3
+tags: []
+user_id: macbookair

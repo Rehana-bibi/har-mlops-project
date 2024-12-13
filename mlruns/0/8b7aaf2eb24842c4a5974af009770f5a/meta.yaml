@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/8b7aaf2eb24842c4a5974af009770f5a/artifacts
+end_time: 1734063924615
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b7aaf2eb24842c4a5974af009770f5a
+run_name: dapper-lamb-381
+run_uuid: 8b7aaf2eb24842c4a5974af009770f5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063922223
+status: 3
+tags: []
+user_id: macbookair

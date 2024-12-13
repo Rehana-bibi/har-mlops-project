@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/93bed1cd060645c2832bd0b42d0eba36/artifacts
+end_time: 1734066274628
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93bed1cd060645c2832bd0b42d0eba36
+run_name: skillful-owl-704
+run_uuid: 93bed1cd060645c2832bd0b42d0eba36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734066273092
+status: 3
+tags: []
+user_id: macbookair

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1734069002740
+current_stage: None
+description: null
+last_updated_timestamp: 1734069002740
+name: har_activity_recognition_rf
+run_id: 8065f4d854bd480aaae18ef1827fadc3
+run_link: null
+source: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/8065f4d854bd480aaae18ef1827fadc3/artifacts/random_forest_model
+status: READY
+status_message: null
+storage_location: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/8065f4d854bd480aaae18ef1827fadc3/artifacts/random_forest_model
+user_id: null
+version: 1

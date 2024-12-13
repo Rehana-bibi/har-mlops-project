@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/436712115545057558/659b2539e0284da1b9177e63c34dfb94/artifacts
+end_time: 1734032926693
+entry_point_name: ''
+experiment_id: '436712115545057558'
+lifecycle_stage: active
+run_id: 659b2539e0284da1b9177e63c34dfb94
+run_name: adventurous-auk-684
+run_uuid: 659b2539e0284da1b9177e63c34dfb94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734032914360
+status: 3
+tags: []
+user_id: macbookair

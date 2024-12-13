@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/f30eb04f1e2745debd3cd34d6609f36f/artifacts
+end_time: 1734066282400
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f30eb04f1e2745debd3cd34d6609f36f
+run_name: salty-squid-175
+run_uuid: f30eb04f1e2745debd3cd34d6609f36f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734066279875
+status: 3
+tags: []
+user_id: macbookair

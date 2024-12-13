@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/7c619b9b17fb4a3abecc810f3656d7e3/artifacts
+end_time: 1734064041223
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c619b9b17fb4a3abecc810f3656d7e3
+run_name: sassy-perch-278
+run_uuid: 7c619b9b17fb4a3abecc810f3656d7e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734064036918
+status: 3
+tags: []
+user_id: macbookair

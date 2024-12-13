@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/612bb1733b40459c989c7a20152211e0/artifacts
+end_time: 1734064042949
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 612bb1733b40459c989c7a20152211e0
+run_name: rebellious-eel-436
+run_uuid: 612bb1733b40459c989c7a20152211e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734064041420
+status: 3
+tags: []
+user_id: macbookair

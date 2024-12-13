@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/19127b0f77f943479ba2e43ae7705c56/artifacts
+end_time: 1734063922034
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 19127b0f77f943479ba2e43ae7705c56
+run_name: welcoming-foal-880
+run_uuid: 19127b0f77f943479ba2e43ae7705c56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063919618
+status: 3
+tags: []
+user_id: macbookair

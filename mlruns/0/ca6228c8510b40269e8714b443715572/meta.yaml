@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/ca6228c8510b40269e8714b443715572/artifacts
+end_time: 1734063915279
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca6228c8510b40269e8714b443715572
+run_name: exultant-bee-718
+run_uuid: ca6228c8510b40269e8714b443715572
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063910899
+status: 3
+tags: []
+user_id: macbookair

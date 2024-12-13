@@ -1,0 +1,485 @@
+digest: 112404a0
+name: dataset
+profile: '{"num_rows": 589, "num_elements": 331018}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "tBodyAcc-mean()-X", "required":
+  true}, {"type": "double", "name": "tBodyAcc-mean()-Y", "required": true}, {"type":
+  "double", "name": "tBodyAcc-mean()-Z", "required": true}, {"type": "double", "name":
+  "tBodyAcc-std()-X", "required": true}, {"type": "double", "name": "tBodyAcc-std()-Y",
+  "required": true}, {"type": "double", "name": "tBodyAcc-std()-Z", "required": true},
+  {"type": "double", "name": "tBodyAcc-mad()-X", "required": true}, {"type": "double",
+  "name": "tBodyAcc-mad()-Y", "required": true}, {"type": "double", "name": "tBodyAcc-mad()-Z",
+  "required": true}, {"type": "double", "name": "tBodyAcc-max()-X", "required": true},
+  {"type": "double", "name": "tBodyAcc-max()-Y", "required": true}, {"type": "double",
+  "name": "tBodyAcc-max()-Z", "required": true}, {"type": "double", "name": "tBodyAcc-min()-X",
+  "required": true}, {"type": "double", "name": "tBodyAcc-min()-Y", "required": true},
+  {"type": "double", "name": "tBodyAcc-min()-Z", "required": true}, {"type": "double",
+  "name": "tBodyAcc-sma()", "required": true}, {"type": "double", "name": "tBodyAcc-energy()-X",
+  "required": true}, {"type": "double", "name": "tBodyAcc-energy()-Y", "required":
+  true}, {"type": "double", "name": "tBodyAcc-energy()-Z", "required": true}, {"type":
+  "double", "name": "tBodyAcc-iqr()-X", "required": true}, {"type": "double", "name":
+  "tBodyAcc-iqr()-Y", "required": true}, {"type": "double", "name": "tBodyAcc-iqr()-Z",
+  "required": true}, {"type": "double", "name": "tBodyAcc-entropy()-X", "required":
+  true}, {"type": "double", "name": "tBodyAcc-entropy()-Y", "required": true}, {"type":
+  "double", "name": "tBodyAcc-entropy()-Z", "required": true}, {"type": "double",
+  "name": "tBodyAcc-arCoeff()-X,1", "required": true}, {"type": "double", "name":
+  "tBodyAcc-arCoeff()-X,2", "required": true}, {"type": "double", "name": "tBodyAcc-arCoeff()-X,3",
+  "required": true}, {"type": "double", "name": "tBodyAcc-arCoeff()-X,4", "required":
+  true}, {"type": "double", "name": "tBodyAcc-arCoeff()-Y,1", "required": true}, {"type":
+  "double", "name": "tBodyAcc-arCoeff()-Y,2", "required": true}, {"type": "double",
+  "name": "tBodyAcc-arCoeff()-Y,3", "required": true}, {"type": "double", "name":
+  "tBodyAcc-arCoeff()-Y,4", "required": true}, {"type": "double", "name": "tBodyAcc-arCoeff()-Z,1",
+  "required": true}, {"type": "double", "name": "tBodyAcc-arCoeff()-Z,2", "required":
+  true}, {"type": "double", "name": "tBodyAcc-arCoeff()-Z,3", "required": true}, {"type":
+  "double", "name": "tBodyAcc-arCoeff()-Z,4", "required": true}, {"type": "double",
+  "name": "tBodyAcc-correlation()-X,Y", "required": true}, {"type": "double", "name":
+  "tBodyAcc-correlation()-X,Z", "required": true}, {"type": "double", "name": "tBodyAcc-correlation()-Y,Z",
+  "required": true}, {"type": "double", "name": "tGravityAcc-mean()-X", "required":
+  true}, {"type": "double", "name": "tGravityAcc-mean()-Y", "required": true}, {"type":
+  "double", "name": "tGravityAcc-mean()-Z", "required": true}, {"type": "double",
+  "name": "tGravityAcc-std()-X", "required": true}, {"type": "double", "name": "tGravityAcc-std()-Y",
+  "required": true}, {"type": "double", "name": "tGravityAcc-std()-Z", "required":
+  true}, {"type": "double", "name": "tGravityAcc-mad()-X", "required": true}, {"type":
+  "double", "name": "tGravityAcc-mad()-Y", "required": true}, {"type": "double", "name":
+  "tGravityAcc-mad()-Z", "required": true}, {"type": "double", "name": "tGravityAcc-max()-X",
+  "required": true}, {"type": "double", "name": "tGravityAcc-max()-Y", "required":
+  true}, {"type": "double", "name": "tGravityAcc-max()-Z", "required": true}, {"type":
+  "double", "name": "tGravityAcc-min()-X", "required": true}, {"type": "double", "name":
+  "tGravityAcc-min()-Y", "required": true}, {"type": "double", "name": "tGravityAcc-min()-Z",
+  "required": true}, {"type": "double", "name": "tGravityAcc-sma()", "required": true},
+  {"type": "double", "name": "tGravityAcc-energy()-X", "required": true}, {"type":
+  "double", "name": "tGravityAcc-energy()-Y", "required": true}, {"type": "double",
+  "name": "tGravityAcc-energy()-Z", "required": true}, {"type": "double", "name":
+  "tGravityAcc-iqr()-X", "required": true}, {"type": "double", "name": "tGravityAcc-iqr()-Y",
+  "required": true}, {"type": "double", "name": "tGravityAcc-iqr()-Z", "required":
+  true}, {"type": "double", "name": "tGravityAcc-entropy()-X", "required": true},
+  {"type": "double", "name": "tGravityAcc-entropy()-Y", "required": true}, {"type":
+  "double", "name": "tGravityAcc-entropy()-Z", "required": true}, {"type": "double",
+  "name": "tGravityAcc-arCoeff()-X,1", "required": true}, {"type": "double", "name":
+  "tGravityAcc-arCoeff()-X,2", "required": true}, {"type": "double", "name": "tGravityAcc-arCoeff()-X,3",
+  "required": true}, {"type": "double", "name": "tGravityAcc-arCoeff()-X,4", "required":
+  true}, {"type": "double", "name": "tGravityAcc-arCoeff()-Y,1", "required": true},
+  {"type": "double", "name": "tGravityAcc-arCoeff()-Y,2", "required": true}, {"type":
+  "double", "name": "tGravityAcc-arCoeff()-Y,3", "required": true}, {"type": "double",
+  "name": "tGravityAcc-arCoeff()-Y,4", "required": true}, {"type": "double", "name":
+  "tGravityAcc-arCoeff()-Z,1", "required": true}, {"type": "double", "name": "tGravityAcc-arCoeff()-Z,2",
+  "required": true}, {"type": "double", "name": "tGravityAcc-arCoeff()-Z,3", "required":
+  true}, {"type": "double", "name": "tGravityAcc-arCoeff()-Z,4", "required": true},
+  {"type": "double", "name": "tGravityAcc-correlation()-X,Y", "required": true}, {"type":
+  "double", "name": "tGravityAcc-correlation()-X,Z", "required": true}, {"type": "double",
+  "name": "tGravityAcc-correlation()-Y,Z", "required": true}, {"type": "double", "name":
+  "tBodyAccJerk-mean()-X", "required": true}, {"type": "double", "name": "tBodyAccJerk-mean()-Y",
+  "required": true}, {"type": "double", "name": "tBodyAccJerk-mean()-Z", "required":
+  true}, {"type": "double", "name": "tBodyAccJerk-std()-X", "required": true}, {"type":
+  "double", "name": "tBodyAccJerk-std()-Y", "required": true}, {"type": "double",
+  "name": "tBodyAccJerk-std()-Z", "required": true}, {"type": "double", "name": "tBodyAccJerk-mad()-X",
+  "required": true}, {"type": "double", "name": "tBodyAccJerk-mad()-Y", "required":
+  true}, {"type": "double", "name": "tBodyAccJerk-mad()-Z", "required": true}, {"type":
+  "double", "name": "tBodyAccJerk-max()-X", "required": true}, {"type": "double",
+  "name": "tBodyAccJerk-max()-Y", "required": true}, {"type": "double", "name": "tBodyAccJerk-max()-Z",
+  "required": true}, {"type": "double", "name": "tBodyAccJerk-min()-X", "required":
+  true}, {"type": "double", "name": "tBodyAccJerk-min()-Y", "required": true}, {"type":
+  "double", "name": "tBodyAccJerk-min()-Z", "required": true}, {"type": "double",
+  "name": "tBodyAccJerk-sma()", "required": true}, {"type": "double", "name": "tBodyAccJerk-energy()-X",
+  "required": true}, {"type": "double", "name": "tBodyAccJerk-energy()-Y", "required":
+  true}, {"type": "double", "name": "tBodyAccJerk-energy()-Z", "required": true},
+  {"type": "double", "name": "tBodyAccJerk-iqr()-X", "required": true}, {"type": "double",
+  "name": "tBodyAccJerk-iqr()-Y", "required": true}, {"type": "double", "name": "tBodyAccJerk-iqr()-Z",
+  "required": true}, {"type": "double", "name": "tBodyAccJerk-entropy()-X", "required":
+  true}, {"type": "double", "name": "tBodyAccJerk-entropy()-Y", "required": true},
+  {"type": "double", "name": "tBodyAccJerk-entropy()-Z", "required": true}, {"type":
+  "double", "name": "tBodyAccJerk-arCoeff()-X,1", "required": true}, {"type": "double",
+  "name": "tBodyAccJerk-arCoeff()-X,2", "required": true}, {"type": "double", "name":
+  "tBodyAccJerk-arCoeff()-X,3", "required": true}, {"type": "double", "name": "tBodyAccJerk-arCoeff()-X,4",
+  "required": true}, {"type": "double", "name": "tBodyAccJerk-arCoeff()-Y,1", "required":
+  true}, {"type": "double", "name": "tBodyAccJerk-arCoeff()-Y,2", "required": true},
+  {"type": "double", "name": "tBodyAccJerk-arCoeff()-Y,3", "required": true}, {"type":
+  "double", "name": "tBodyAccJerk-arCoeff()-Y,4", "required": true}, {"type": "double",
+  "name": "tBodyAccJerk-arCoeff()-Z,1", "required": true}, {"type": "double", "name":
+  "tBodyAccJerk-arCoeff()-Z,2", "required": true}, {"type": "double", "name": "tBodyAccJerk-arCoeff()-Z,3",
+  "required": true}, {"type": "double", "name": "tBodyAccJerk-arCoeff()-Z,4", "required":
+  true}, {"type": "double", "name": "tBodyAccJerk-correlation()-X,Y", "required":
+  true}, {"type": "double", "name": "tBodyAccJerk-correlation()-X,Z", "required":
+  true}, {"type": "double", "name": "tBodyAccJerk-correlation()-Y,Z", "required":
+  true}, {"type": "double", "name": "tBodyGyro-mean()-X", "required": true}, {"type":
+  "double", "name": "tBodyGyro-mean()-Y", "required": true}, {"type": "double", "name":
+  "tBodyGyro-mean()-Z", "required": true}, {"type": "double", "name": "tBodyGyro-std()-X",
+  "required": true}, {"type": "double", "name": "tBodyGyro-std()-Y", "required": true},
+  {"type": "double", "name": "tBodyGyro-std()-Z", "required": true}, {"type": "double",
+  "name": "tBodyGyro-mad()-X", "required": true}, {"type": "double", "name": "tBodyGyro-mad()-Y",
+  "required": true}, {"type": "double", "name": "tBodyGyro-mad()-Z", "required": true},
+  {"type": "double", "name": "tBodyGyro-max()-X", "required": true}, {"type": "double",
+  "name": "tBodyGyro-max()-Y", "required": true}, {"type": "double", "name": "tBodyGyro-max()-Z",
+  "required": true}, {"type": "double", "name": "tBodyGyro-min()-X", "required": true},
+  {"type": "double", "name": "tBodyGyro-min()-Y", "required": true}, {"type": "double",
+  "name": "tBodyGyro-min()-Z", "required": true}, {"type": "double", "name": "tBodyGyro-sma()",
+  "required": true}, {"type": "double", "name": "tBodyGyro-energy()-X", "required":
+  true}, {"type": "double", "name": "tBodyGyro-energy()-Y", "required": true}, {"type":
+  "double", "name": "tBodyGyro-energy()-Z", "required": true}, {"type": "double",
+  "name": "tBodyGyro-iqr()-X", "required": true}, {"type": "double", "name": "tBodyGyro-iqr()-Y",
+  "required": true}, {"type": "double", "name": "tBodyGyro-iqr()-Z", "required": true},
+  {"type": "double", "name": "tBodyGyro-entropy()-X", "required": true}, {"type":
+  "double", "name": "tBodyGyro-entropy()-Y", "required": true}, {"type": "double",
+  "name": "tBodyGyro-entropy()-Z", "required": true}, {"type": "double", "name": "tBodyGyro-arCoeff()-X,1",
+  "required": true}, {"type": "double", "name": "tBodyGyro-arCoeff()-X,2", "required":
+  true}, {"type": "double", "name": "tBodyGyro-arCoeff()-X,3", "required": true},
+  {"type": "double", "name": "tBodyGyro-arCoeff()-X,4", "required": true}, {"type":
+  "double", "name": "tBodyGyro-arCoeff()-Y,1", "required": true}, {"type": "double",
+  "name": "tBodyGyro-arCoeff()-Y,2", "required": true}, {"type": "double", "name":
+  "tBodyGyro-arCoeff()-Y,3", "required": true}, {"type": "double", "name": "tBodyGyro-arCoeff()-Y,4",
+  "required": true}, {"type": "double", "name": "tBodyGyro-arCoeff()-Z,1", "required":
+  true}, {"type": "double", "name": "tBodyGyro-arCoeff()-Z,2", "required": true},
+  {"type": "double", "name": "tBodyGyro-arCoeff()-Z,3", "required": true}, {"type":
+  "double", "name": "tBodyGyro-arCoeff()-Z,4", "required": true}, {"type": "double",
+  "name": "tBodyGyro-correlation()-X,Y", "required": true}, {"type": "double", "name":
+  "tBodyGyro-correlation()-X,Z", "required": true}, {"type": "double", "name": "tBodyGyro-correlation()-Y,Z",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerk-mean()-X", "required":
+  true}, {"type": "double", "name": "tBodyGyroJerk-mean()-Y", "required": true}, {"type":
+  "double", "name": "tBodyGyroJerk-mean()-Z", "required": true}, {"type": "double",
+  "name": "tBodyGyroJerk-std()-X", "required": true}, {"type": "double", "name": "tBodyGyroJerk-std()-Y",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerk-std()-Z", "required":
+  true}, {"type": "double", "name": "tBodyGyroJerk-mad()-X", "required": true}, {"type":
+  "double", "name": "tBodyGyroJerk-mad()-Y", "required": true}, {"type": "double",
+  "name": "tBodyGyroJerk-mad()-Z", "required": true}, {"type": "double", "name": "tBodyGyroJerk-max()-X",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerk-max()-Y", "required":
+  true}, {"type": "double", "name": "tBodyGyroJerk-max()-Z", "required": true}, {"type":
+  "double", "name": "tBodyGyroJerk-min()-X", "required": true}, {"type": "double",
+  "name": "tBodyGyroJerk-min()-Y", "required": true}, {"type": "double", "name": "tBodyGyroJerk-min()-Z",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerk-sma()", "required":
+  true}, {"type": "double", "name": "tBodyGyroJerk-energy()-X", "required": true},
+  {"type": "double", "name": "tBodyGyroJerk-energy()-Y", "required": true}, {"type":
+  "double", "name": "tBodyGyroJerk-energy()-Z", "required": true}, {"type": "double",
+  "name": "tBodyGyroJerk-iqr()-X", "required": true}, {"type": "double", "name": "tBodyGyroJerk-iqr()-Y",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerk-iqr()-Z", "required":
+  true}, {"type": "double", "name": "tBodyGyroJerk-entropy()-X", "required": true},
+  {"type": "double", "name": "tBodyGyroJerk-entropy()-Y", "required": true}, {"type":
+  "double", "name": "tBodyGyroJerk-entropy()-Z", "required": true}, {"type": "double",
+  "name": "tBodyGyroJerk-arCoeff()-X,1", "required": true}, {"type": "double", "name":
+  "tBodyGyroJerk-arCoeff()-X,2", "required": true}, {"type": "double", "name": "tBodyGyroJerk-arCoeff()-X,3",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerk-arCoeff()-X,4", "required":
+  true}, {"type": "double", "name": "tBodyGyroJerk-arCoeff()-Y,1", "required": true},
+  {"type": "double", "name": "tBodyGyroJerk-arCoeff()-Y,2", "required": true}, {"type":
+  "double", "name": "tBodyGyroJerk-arCoeff()-Y,3", "required": true}, {"type": "double",
+  "name": "tBodyGyroJerk-arCoeff()-Y,4", "required": true}, {"type": "double", "name":
+  "tBodyGyroJerk-arCoeff()-Z,1", "required": true}, {"type": "double", "name": "tBodyGyroJerk-arCoeff()-Z,2",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerk-arCoeff()-Z,3", "required":
+  true}, {"type": "double", "name": "tBodyGyroJerk-arCoeff()-Z,4", "required": true},
+  {"type": "double", "name": "tBodyGyroJerk-correlation()-X,Y", "required": true},
+  {"type": "double", "name": "tBodyGyroJerk-correlation()-X,Z", "required": true},
+  {"type": "double", "name": "tBodyGyroJerk-correlation()-Y,Z", "required": true},
+  {"type": "double", "name": "tBodyAccMag-mean()", "required": true}, {"type": "double",
+  "name": "tBodyAccMag-std()", "required": true}, {"type": "double", "name": "tBodyAccMag-mad()",
+  "required": true}, {"type": "double", "name": "tBodyAccMag-max()", "required": true},
+  {"type": "double", "name": "tBodyAccMag-min()", "required": true}, {"type": "double",
+  "name": "tBodyAccMag-sma()", "required": true}, {"type": "double", "name": "tBodyAccMag-energy()",
+  "required": true}, {"type": "double", "name": "tBodyAccMag-iqr()", "required": true},
+  {"type": "double", "name": "tBodyAccMag-entropy()", "required": true}, {"type":
+  "double", "name": "tBodyAccMag-arCoeff()1", "required": true}, {"type": "double",
+  "name": "tBodyAccMag-arCoeff()2", "required": true}, {"type": "double", "name":
+  "tBodyAccMag-arCoeff()3", "required": true}, {"type": "double", "name": "tBodyAccMag-arCoeff()4",
+  "required": true}, {"type": "double", "name": "tGravityAccMag-mean()", "required":
+  true}, {"type": "double", "name": "tGravityAccMag-std()", "required": true}, {"type":
+  "double", "name": "tGravityAccMag-mad()", "required": true}, {"type": "double",
+  "name": "tGravityAccMag-max()", "required": true}, {"type": "double", "name": "tGravityAccMag-min()",
+  "required": true}, {"type": "double", "name": "tGravityAccMag-sma()", "required":
+  true}, {"type": "double", "name": "tGravityAccMag-energy()", "required": true},
+  {"type": "double", "name": "tGravityAccMag-iqr()", "required": true}, {"type": "double",
+  "name": "tGravityAccMag-entropy()", "required": true}, {"type": "double", "name":
+  "tGravityAccMag-arCoeff()1", "required": true}, {"type": "double", "name": "tGravityAccMag-arCoeff()2",
+  "required": true}, {"type": "double", "name": "tGravityAccMag-arCoeff()3", "required":
+  true}, {"type": "double", "name": "tGravityAccMag-arCoeff()4", "required": true},
+  {"type": "double", "name": "tBodyAccJerkMag-mean()", "required": true}, {"type":
+  "double", "name": "tBodyAccJerkMag-std()", "required": true}, {"type": "double",
+  "name": "tBodyAccJerkMag-mad()", "required": true}, {"type": "double", "name": "tBodyAccJerkMag-max()",
+  "required": true}, {"type": "double", "name": "tBodyAccJerkMag-min()", "required":
+  true}, {"type": "double", "name": "tBodyAccJerkMag-sma()", "required": true}, {"type":
+  "double", "name": "tBodyAccJerkMag-energy()", "required": true}, {"type": "double",
+  "name": "tBodyAccJerkMag-iqr()", "required": true}, {"type": "double", "name": "tBodyAccJerkMag-entropy()",
+  "required": true}, {"type": "double", "name": "tBodyAccJerkMag-arCoeff()1", "required":
+  true}, {"type": "double", "name": "tBodyAccJerkMag-arCoeff()2", "required": true},
+  {"type": "double", "name": "tBodyAccJerkMag-arCoeff()3", "required": true}, {"type":
+  "double", "name": "tBodyAccJerkMag-arCoeff()4", "required": true}, {"type": "double",
+  "name": "tBodyGyroMag-mean()", "required": true}, {"type": "double", "name": "tBodyGyroMag-std()",
+  "required": true}, {"type": "double", "name": "tBodyGyroMag-mad()", "required":
+  true}, {"type": "double", "name": "tBodyGyroMag-max()", "required": true}, {"type":
+  "double", "name": "tBodyGyroMag-min()", "required": true}, {"type": "double", "name":
+  "tBodyGyroMag-sma()", "required": true}, {"type": "double", "name": "tBodyGyroMag-energy()",
+  "required": true}, {"type": "double", "name": "tBodyGyroMag-iqr()", "required":
+  true}, {"type": "double", "name": "tBodyGyroMag-entropy()", "required": true}, {"type":
+  "double", "name": "tBodyGyroMag-arCoeff()1", "required": true}, {"type": "double",
+  "name": "tBodyGyroMag-arCoeff()2", "required": true}, {"type": "double", "name":
+  "tBodyGyroMag-arCoeff()3", "required": true}, {"type": "double", "name": "tBodyGyroMag-arCoeff()4",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerkMag-mean()", "required":
+  true}, {"type": "double", "name": "tBodyGyroJerkMag-std()", "required": true}, {"type":
+  "double", "name": "tBodyGyroJerkMag-mad()", "required": true}, {"type": "double",
+  "name": "tBodyGyroJerkMag-max()", "required": true}, {"type": "double", "name":
+  "tBodyGyroJerkMag-min()", "required": true}, {"type": "double", "name": "tBodyGyroJerkMag-sma()",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerkMag-energy()", "required":
+  true}, {"type": "double", "name": "tBodyGyroJerkMag-iqr()", "required": true}, {"type":
+  "double", "name": "tBodyGyroJerkMag-entropy()", "required": true}, {"type": "double",
+  "name": "tBodyGyroJerkMag-arCoeff()1", "required": true}, {"type": "double", "name":
+  "tBodyGyroJerkMag-arCoeff()2", "required": true}, {"type": "double", "name": "tBodyGyroJerkMag-arCoeff()3",
+  "required": true}, {"type": "double", "name": "tBodyGyroJerkMag-arCoeff()4", "required":
+  true}, {"type": "double", "name": "fBodyAcc-mean()-X", "required": true}, {"type":
+  "double", "name": "fBodyAcc-mean()-Y", "required": true}, {"type": "double", "name":
+  "fBodyAcc-mean()-Z", "required": true}, {"type": "double", "name": "fBodyAcc-std()-X",
+  "required": true}, {"type": "double", "name": "fBodyAcc-std()-Y", "required": true},
+  {"type": "double", "name": "fBodyAcc-std()-Z", "required": true}, {"type": "double",
+  "name": "fBodyAcc-mad()-X", "required": true}, {"type": "double", "name": "fBodyAcc-mad()-Y",
+  "required": true}, {"type": "double", "name": "fBodyAcc-mad()-Z", "required": true},
+  {"type": "double", "name": "fBodyAcc-max()-X", "required": true}, {"type": "double",
+  "name": "fBodyAcc-max()-Y", "required": true}, {"type": "double", "name": "fBodyAcc-max()-Z",
+  "required": true}, {"type": "double", "name": "fBodyAcc-min()-X", "required": true},
+  {"type": "double", "name": "fBodyAcc-min()-Y", "required": true}, {"type": "double",
+  "name": "fBodyAcc-min()-Z", "required": true}, {"type": "double", "name": "fBodyAcc-sma()",
+  "required": true}, {"type": "double", "name": "fBodyAcc-energy()-X", "required":
+  true}, {"type": "double", "name": "fBodyAcc-energy()-Y", "required": true}, {"type":
+  "double", "name": "fBodyAcc-energy()-Z", "required": true}, {"type": "double", "name":
+  "fBodyAcc-iqr()-X", "required": true}, {"type": "double", "name": "fBodyAcc-iqr()-Y",
+  "required": true}, {"type": "double", "name": "fBodyAcc-iqr()-Z", "required": true},
+  {"type": "double", "name": "fBodyAcc-entropy()-X", "required": true}, {"type": "double",
+  "name": "fBodyAcc-entropy()-Y", "required": true}, {"type": "double", "name": "fBodyAcc-entropy()-Z",
+  "required": true}, {"type": "double", "name": "fBodyAcc-maxInds-X", "required":
+  true}, {"type": "double", "name": "fBodyAcc-maxInds-Y", "required": true}, {"type":
+  "double", "name": "fBodyAcc-maxInds-Z", "required": true}, {"type": "double", "name":
+  "fBodyAcc-meanFreq()-X", "required": true}, {"type": "double", "name": "fBodyAcc-meanFreq()-Y",
+  "required": true}, {"type": "double", "name": "fBodyAcc-meanFreq()-Z", "required":
+  true}, {"type": "double", "name": "fBodyAcc-skewness()-X", "required": true}, {"type":
+  "double", "name": "fBodyAcc-kurtosis()-X", "required": true}, {"type": "double",
+  "name": "fBodyAcc-skewness()-Y", "required": true}, {"type": "double", "name": "fBodyAcc-kurtosis()-Y",
+  "required": true}, {"type": "double", "name": "fBodyAcc-skewness()-Z", "required":
+  true}, {"type": "double", "name": "fBodyAcc-kurtosis()-Z", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-1,8", "required": true}, {"type": "double",
+  "name": "fBodyAcc-bandsEnergy()-9,16", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-17,24", "required": true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-25,32",
+  "required": true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-33,40", "required":
+  true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-41,48", "required": true},
+  {"type": "double", "name": "fBodyAcc-bandsEnergy()-49,56", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-57,64", "required": true}, {"type": "double",
+  "name": "fBodyAcc-bandsEnergy()-1,16", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-17,32", "required": true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-33,48",
+  "required": true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-49,64", "required":
+  true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-1,24", "required": true},
+  {"type": "double", "name": "fBodyAcc-bandsEnergy()-25,48", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-1,8.1", "required": true}, {"type": "double",
+  "name": "fBodyAcc-bandsEnergy()-9,16.1", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-17,24.1", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-25,32.1", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-33,40.1", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-41,48.1", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-49,56.1", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-57,64.1", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-1,16.1", "required": true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-17,32.1",
+  "required": true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-33,48.1",
+  "required": true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-49,64.1",
+  "required": true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-1,24.1", "required":
+  true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-25,48.1", "required":
+  true}, {"type": "double", "name": "fBodyAcc-bandsEnergy()-1,8.2", "required": true},
+  {"type": "double", "name": "fBodyAcc-bandsEnergy()-9,16.2", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-17,24.2", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-25,32.2", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-33,40.2", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-41,48.2", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-49,56.2", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-57,64.2", "required": true}, {"type":
+  "double", "name": "fBodyAcc-bandsEnergy()-1,16.2", "required": true}, {"type": "double",
+  "name": "fBodyAcc-bandsEnergy()-17,32.2", "required": true}, {"type": "double",
+  "name": "fBodyAcc-bandsEnergy()-33,48.2", "required": true}, {"type": "double",
+  "name": "fBodyAcc-bandsEnergy()-49,64.2", "required": true}, {"type": "double",
+  "name": "fBodyAcc-bandsEnergy()-1,24.2", "required": true}, {"type": "double", "name":
+  "fBodyAcc-bandsEnergy()-25,48.2", "required": true}, {"type": "double", "name":
+  "fBodyAccJerk-mean()-X", "required": true}, {"type": "double", "name": "fBodyAccJerk-mean()-Y",
+  "required": true}, {"type": "double", "name": "fBodyAccJerk-mean()-Z", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-std()-X", "required": true}, {"type":
+  "double", "name": "fBodyAccJerk-std()-Y", "required": true}, {"type": "double",
+  "name": "fBodyAccJerk-std()-Z", "required": true}, {"type": "double", "name": "fBodyAccJerk-mad()-X",
+  "required": true}, {"type": "double", "name": "fBodyAccJerk-mad()-Y", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-mad()-Z", "required": true}, {"type":
+  "double", "name": "fBodyAccJerk-max()-X", "required": true}, {"type": "double",
+  "name": "fBodyAccJerk-max()-Y", "required": true}, {"type": "double", "name": "fBodyAccJerk-max()-Z",
+  "required": true}, {"type": "double", "name": "fBodyAccJerk-min()-X", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-min()-Y", "required": true}, {"type":
+  "double", "name": "fBodyAccJerk-min()-Z", "required": true}, {"type": "double",
+  "name": "fBodyAccJerk-sma()", "required": true}, {"type": "double", "name": "fBodyAccJerk-energy()-X",
+  "required": true}, {"type": "double", "name": "fBodyAccJerk-energy()-Y", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-energy()-Z", "required": true},
+  {"type": "double", "name": "fBodyAccJerk-iqr()-X", "required": true}, {"type": "double",
+  "name": "fBodyAccJerk-iqr()-Y", "required": true}, {"type": "double", "name": "fBodyAccJerk-iqr()-Z",
+  "required": true}, {"type": "double", "name": "fBodyAccJerk-entropy()-X", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-entropy()-Y", "required": true},
+  {"type": "double", "name": "fBodyAccJerk-entropy()-Z", "required": true}, {"type":
+  "double", "name": "fBodyAccJerk-maxInds-X", "required": true}, {"type": "double",
+  "name": "fBodyAccJerk-maxInds-Y", "required": true}, {"type": "double", "name":
+  "fBodyAccJerk-maxInds-Z", "required": true}, {"type": "double", "name": "fBodyAccJerk-meanFreq()-X",
+  "required": true}, {"type": "double", "name": "fBodyAccJerk-meanFreq()-Y", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-meanFreq()-Z", "required": true},
+  {"type": "double", "name": "fBodyAccJerk-skewness()-X", "required": true}, {"type":
+  "double", "name": "fBodyAccJerk-kurtosis()-X", "required": true}, {"type": "double",
+  "name": "fBodyAccJerk-skewness()-Y", "required": true}, {"type": "double", "name":
+  "fBodyAccJerk-kurtosis()-Y", "required": true}, {"type": "double", "name": "fBodyAccJerk-skewness()-Z",
+  "required": true}, {"type": "double", "name": "fBodyAccJerk-kurtosis()-Z", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-1,8", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-9,16", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-17,24", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-25,32", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-33,40", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-41,48", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-49,56", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-57,64", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-1,16", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-17,32", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-33,48", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-49,64", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-1,24", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-25,48", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-1,8.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-9,16.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-17,24.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-25,32.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-33,40.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-41,48.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-49,56.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-57,64.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-1,16.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-17,32.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-33,48.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-49,64.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-1,24.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-25,48.1", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-1,8.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-9,16.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-17,24.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-25,32.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-33,40.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-41,48.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-49,56.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-57,64.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-1,16.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-17,32.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-33,48.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-49,64.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-1,24.2", "required":
+  true}, {"type": "double", "name": "fBodyAccJerk-bandsEnergy()-25,48.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-mean()-X", "required": true}, {"type":
+  "double", "name": "fBodyGyro-mean()-Y", "required": true}, {"type": "double", "name":
+  "fBodyGyro-mean()-Z", "required": true}, {"type": "double", "name": "fBodyGyro-std()-X",
+  "required": true}, {"type": "double", "name": "fBodyGyro-std()-Y", "required": true},
+  {"type": "double", "name": "fBodyGyro-std()-Z", "required": true}, {"type": "double",
+  "name": "fBodyGyro-mad()-X", "required": true}, {"type": "double", "name": "fBodyGyro-mad()-Y",
+  "required": true}, {"type": "double", "name": "fBodyGyro-mad()-Z", "required": true},
+  {"type": "double", "name": "fBodyGyro-max()-X", "required": true}, {"type": "double",
+  "name": "fBodyGyro-max()-Y", "required": true}, {"type": "double", "name": "fBodyGyro-max()-Z",
+  "required": true}, {"type": "double", "name": "fBodyGyro-min()-X", "required": true},
+  {"type": "double", "name": "fBodyGyro-min()-Y", "required": true}, {"type": "double",
+  "name": "fBodyGyro-min()-Z", "required": true}, {"type": "double", "name": "fBodyGyro-sma()",
+  "required": true}, {"type": "double", "name": "fBodyGyro-energy()-X", "required":
+  true}, {"type": "double", "name": "fBodyGyro-energy()-Y", "required": true}, {"type":
+  "double", "name": "fBodyGyro-energy()-Z", "required": true}, {"type": "double",
+  "name": "fBodyGyro-iqr()-X", "required": true}, {"type": "double", "name": "fBodyGyro-iqr()-Y",
+  "required": true}, {"type": "double", "name": "fBodyGyro-iqr()-Z", "required": true},
+  {"type": "double", "name": "fBodyGyro-entropy()-X", "required": true}, {"type":
+  "double", "name": "fBodyGyro-entropy()-Y", "required": true}, {"type": "double",
+  "name": "fBodyGyro-entropy()-Z", "required": true}, {"type": "double", "name": "fBodyGyro-maxInds-X",
+  "required": true}, {"type": "double", "name": "fBodyGyro-maxInds-Y", "required":
+  true}, {"type": "double", "name": "fBodyGyro-maxInds-Z", "required": true}, {"type":
+  "double", "name": "fBodyGyro-meanFreq()-X", "required": true}, {"type": "double",
+  "name": "fBodyGyro-meanFreq()-Y", "required": true}, {"type": "double", "name":
+  "fBodyGyro-meanFreq()-Z", "required": true}, {"type": "double", "name": "fBodyGyro-skewness()-X",
+  "required": true}, {"type": "double", "name": "fBodyGyro-kurtosis()-X", "required":
+  true}, {"type": "double", "name": "fBodyGyro-skewness()-Y", "required": true}, {"type":
+  "double", "name": "fBodyGyro-kurtosis()-Y", "required": true}, {"type": "double",
+  "name": "fBodyGyro-skewness()-Z", "required": true}, {"type": "double", "name":
+  "fBodyGyro-kurtosis()-Z", "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-1,8",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-9,16", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-17,24", "required": true},
+  {"type": "double", "name": "fBodyGyro-bandsEnergy()-25,32", "required": true}, {"type":
+  "double", "name": "fBodyGyro-bandsEnergy()-33,40", "required": true}, {"type": "double",
+  "name": "fBodyGyro-bandsEnergy()-41,48", "required": true}, {"type": "double", "name":
+  "fBodyGyro-bandsEnergy()-49,56", "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-57,64",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-1,16", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-17,32", "required": true},
+  {"type": "double", "name": "fBodyGyro-bandsEnergy()-33,48", "required": true}, {"type":
+  "double", "name": "fBodyGyro-bandsEnergy()-49,64", "required": true}, {"type": "double",
+  "name": "fBodyGyro-bandsEnergy()-1,24", "required": true}, {"type": "double", "name":
+  "fBodyGyro-bandsEnergy()-25,48", "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-1,8.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-9,16.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-17,24.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-25,32.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-33,40.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-41,48.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-49,56.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-57,64.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-1,16.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-17,32.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-33,48.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-49,64.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-1,24.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-25,48.1",
+  "required": true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-1,8.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-9,16.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-17,24.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-25,32.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-33,40.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-41,48.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-49,56.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-57,64.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-1,16.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-17,32.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-33,48.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-49,64.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-1,24.2", "required":
+  true}, {"type": "double", "name": "fBodyGyro-bandsEnergy()-25,48.2", "required":
+  true}, {"type": "double", "name": "fBodyAccMag-mean()", "required": true}, {"type":
+  "double", "name": "fBodyAccMag-std()", "required": true}, {"type": "double", "name":
+  "fBodyAccMag-mad()", "required": true}, {"type": "double", "name": "fBodyAccMag-max()",
+  "required": true}, {"type": "double", "name": "fBodyAccMag-min()", "required": true},
+  {"type": "double", "name": "fBodyAccMag-sma()", "required": true}, {"type": "double",
+  "name": "fBodyAccMag-energy()", "required": true}, {"type": "double", "name": "fBodyAccMag-iqr()",
+  "required": true}, {"type": "double", "name": "fBodyAccMag-entropy()", "required":
+  true}, {"type": "double", "name": "fBodyAccMag-maxInds", "required": true}, {"type":
+  "double", "name": "fBodyAccMag-meanFreq()", "required": true}, {"type": "double",
+  "name": "fBodyAccMag-skewness()", "required": true}, {"type": "double", "name":
+  "fBodyAccMag-kurtosis()", "required": true}, {"type": "double", "name": "fBodyBodyAccJerkMag-mean()",
+  "required": true}, {"type": "double", "name": "fBodyBodyAccJerkMag-std()", "required":
+  true}, {"type": "double", "name": "fBodyBodyAccJerkMag-mad()", "required": true},
+  {"type": "double", "name": "fBodyBodyAccJerkMag-max()", "required": true}, {"type":
+  "double", "name": "fBodyBodyAccJerkMag-min()", "required": true}, {"type": "double",
+  "name": "fBodyBodyAccJerkMag-sma()", "required": true}, {"type": "double", "name":
+  "fBodyBodyAccJerkMag-energy()", "required": true}, {"type": "double", "name": "fBodyBodyAccJerkMag-iqr()",
+  "required": true}, {"type": "double", "name": "fBodyBodyAccJerkMag-entropy()", "required":
+  true}, {"type": "double", "name": "fBodyBodyAccJerkMag-maxInds", "required": true},
+  {"type": "double", "name": "fBodyBodyAccJerkMag-meanFreq()", "required": true},
+  {"type": "double", "name": "fBodyBodyAccJerkMag-skewness()", "required": true},
+  {"type": "double", "name": "fBodyBodyAccJerkMag-kurtosis()", "required": true},
+  {"type": "double", "name": "fBodyBodyGyroMag-mean()", "required": true}, {"type":
+  "double", "name": "fBodyBodyGyroMag-std()", "required": true}, {"type": "double",
+  "name": "fBodyBodyGyroMag-mad()", "required": true}, {"type": "double", "name":
+  "fBodyBodyGyroMag-max()", "required": true}, {"type": "double", "name": "fBodyBodyGyroMag-min()",
+  "required": true}, {"type": "double", "name": "fBodyBodyGyroMag-sma()", "required":
+  true}, {"type": "double", "name": "fBodyBodyGyroMag-energy()", "required": true},
+  {"type": "double", "name": "fBodyBodyGyroMag-iqr()", "required": true}, {"type":
+  "double", "name": "fBodyBodyGyroMag-entropy()", "required": true}, {"type": "double",
+  "name": "fBodyBodyGyroMag-maxInds", "required": true}, {"type": "double", "name":
+  "fBodyBodyGyroMag-meanFreq()", "required": true}, {"type": "double", "name": "fBodyBodyGyroMag-skewness()",
+  "required": true}, {"type": "double", "name": "fBodyBodyGyroMag-kurtosis()", "required":
+  true}, {"type": "double", "name": "fBodyBodyGyroJerkMag-mean()", "required": true},
+  {"type": "double", "name": "fBodyBodyGyroJerkMag-std()", "required": true}, {"type":
+  "double", "name": "fBodyBodyGyroJerkMag-mad()", "required": true}, {"type": "double",
+  "name": "fBodyBodyGyroJerkMag-max()", "required": true}, {"type": "double", "name":
+  "fBodyBodyGyroJerkMag-min()", "required": true}, {"type": "double", "name": "fBodyBodyGyroJerkMag-sma()",
+  "required": true}, {"type": "double", "name": "fBodyBodyGyroJerkMag-energy()", "required":
+  true}, {"type": "double", "name": "fBodyBodyGyroJerkMag-iqr()", "required": true},
+  {"type": "double", "name": "fBodyBodyGyroJerkMag-entropy()", "required": true},
+  {"type": "double", "name": "fBodyBodyGyroJerkMag-maxInds", "required": true}, {"type":
+  "double", "name": "fBodyBodyGyroJerkMag-meanFreq()", "required": true}, {"type":
+  "double", "name": "fBodyBodyGyroJerkMag-skewness()", "required": true}, {"type":
+  "double", "name": "fBodyBodyGyroJerkMag-kurtosis()", "required": true}, {"type":
+  "double", "name": "angle(tBodyAccMean,gravity)", "required": true}, {"type": "double",
+  "name": "angle(tBodyAccJerkMean),gravityMean)", "required": true}, {"type": "double",
+  "name": "angle(tBodyGyroMean,gravityMean)", "required": true}, {"type": "double",
+  "name": "angle(tBodyGyroJerkMean,gravityMean)", "required": true}, {"type": "double",
+  "name": "angle(X,gravityMean)", "required": true}, {"type": "double", "name": "angle(Y,gravityMean)",
+  "required": true}, {"type": "double", "name": "angle(Z,gravityMean)", "required":
+  true}, {"type": "long", "name": "subject", "required": true}]}'
+source: '{"tags": {"mlflow.user": "macbookair", "mlflow.source.name": "src/main.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "24711a355d3544f867a91fc02dd11b757dab4e58"}}'
+source_type: code

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/e93bbedefbae4eb2ab5e31411f4b1899/artifacts
+end_time: 1734063906235
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e93bbedefbae4eb2ab5e31411f4b1899
+run_name: useful-elk-714
+run_uuid: e93bbedefbae4eb2ab5e31411f4b1899
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063901864
+status: 3
+tags: []
+user_id: macbookair

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/5907e03a966443cb9c63db1e4114edaf/artifacts
+end_time: 1734063901660
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5907e03a966443cb9c63db1e4114edaf
+run_name: delightful-cub-698
+run_uuid: 5907e03a966443cb9c63db1e4114edaf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063897526
+status: 3
+tags: []
+user_id: macbookair

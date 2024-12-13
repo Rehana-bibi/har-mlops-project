@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/34a228c36bf0405f91970ced05b0c325/artifacts
+end_time: 1734063287823
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34a228c36bf0405f91970ced05b0c325
+run_name: gregarious-deer-393
+run_uuid: 34a228c36bf0405f91970ced05b0c325
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063283594
+status: 3
+tags: []
+user_id: macbookair

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/bd5870ca70434538b50b33d706552f5b/artifacts
+end_time: 1734066259513
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd5870ca70434538b50b33d706552f5b
+run_name: unequaled-toad-949
+run_uuid: bd5870ca70434538b50b33d706552f5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734066255250
+status: 3
+tags: []
+user_id: macbookair

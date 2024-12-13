@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/75cce54663904101bada2b918a86da09/artifacts
+end_time: 1734064032202
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75cce54663904101bada2b918a86da09
+run_name: magnificent-ant-681
+run_uuid: 75cce54663904101bada2b918a86da09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734064027829
+status: 3
+tags: []
+user_id: macbookair

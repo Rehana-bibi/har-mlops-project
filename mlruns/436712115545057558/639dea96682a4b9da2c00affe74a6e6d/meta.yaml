@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/436712115545057558/639dea96682a4b9da2c00affe74a6e6d/artifacts
+end_time: 1734032912842
+entry_point_name: ''
+experiment_id: '436712115545057558'
+lifecycle_stage: active
+run_id: 639dea96682a4b9da2c00affe74a6e6d
+run_name: overjoyed-owl-12
+run_uuid: 639dea96682a4b9da2c00affe74a6e6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734032908438
+status: 3
+tags: []
+user_id: macbookair

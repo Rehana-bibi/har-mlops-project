@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/887527102d8245d7b8aed315a8e427a5/artifacts
+end_time: 1734063553161
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 887527102d8245d7b8aed315a8e427a5
+run_name: dashing-penguin-898
+run_uuid: 887527102d8245d7b8aed315a8e427a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063549146
+status: 3
+tags: []
+user_id: macbookair

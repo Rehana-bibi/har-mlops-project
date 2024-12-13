@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/4681dc853dbc4f95a5f1b115d6a610db/artifacts
+end_time: 1734063919428
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4681dc853dbc4f95a5f1b115d6a610db
+run_name: youthful-crab-596
+run_uuid: 4681dc853dbc4f95a5f1b115d6a610db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063917069
+status: 3
+tags: []
+user_id: macbookair

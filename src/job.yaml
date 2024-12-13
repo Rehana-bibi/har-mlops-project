@@ -1,6 +1,6 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 type: command
-name: har-activity-recognition-202412131
+name: har-activity-recognition-20241213123
 display_name: "HAR Activity Recognition Job"
 code: .
 command: python main.py --data_path ${{ inputs.training_data }}

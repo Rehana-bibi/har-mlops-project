@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/64166efed8684dc3a5735e99d466e273/artifacts
+end_time: 1734066285029
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 64166efed8684dc3a5735e99d466e273
+run_name: dashing-squid-844
+run_uuid: 64166efed8684dc3a5735e99d466e273
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734066282592
+status: 3
+tags: []
+user_id: macbookair

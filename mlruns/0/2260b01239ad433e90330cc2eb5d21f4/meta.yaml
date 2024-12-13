@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/2260b01239ad433e90330cc2eb5d21f4/artifacts
+end_time: 1734064023129
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2260b01239ad433e90330cc2eb5d21f4
+run_name: indecisive-mole-611
+run_uuid: 2260b01239ad433e90330cc2eb5d21f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734064018807
+status: 3
+tags: []
+user_id: macbookair

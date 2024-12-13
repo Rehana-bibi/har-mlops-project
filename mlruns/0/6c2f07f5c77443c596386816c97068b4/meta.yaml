@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/6c2f07f5c77443c596386816c97068b4/artifacts
+end_time: 1734066277182
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c2f07f5c77443c596386816c97068b4
+run_name: stylish-lark-843
+run_uuid: 6c2f07f5c77443c596386816c97068b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734066274648
+status: 3
+tags: []
+user_id: macbookair

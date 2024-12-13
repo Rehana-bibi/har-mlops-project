@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/d0f1b5f2860c449b96e0e82e90b68dcc/artifacts
+end_time: 1734064056216
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0f1b5f2860c449b96e0e82e90b68dcc
+run_name: adorable-horse-620
+run_uuid: d0f1b5f2860c449b96e0e82e90b68dcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734064053894
+status: 3
+tags: []
+user_id: macbookair

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/8065f4d854bd480aaae18ef1827fadc3/artifacts
+end_time: 1734069018708
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8065f4d854bd480aaae18ef1827fadc3
+run_name: dapper-stoat-7
+run_uuid: 8065f4d854bd480aaae18ef1827fadc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734068974505
+status: 3
+tags: []
+user_id: macbookair

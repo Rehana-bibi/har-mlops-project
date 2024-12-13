@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/2391bf1282da4900adb9b2234c9a80fd/artifacts
+end_time: 1734063554667
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2391bf1282da4900adb9b2234c9a80fd
+run_name: trusting-frog-511
+run_uuid: 2391bf1282da4900adb9b2234c9a80fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063553183
+status: 3
+tags: []
+user_id: macbookair

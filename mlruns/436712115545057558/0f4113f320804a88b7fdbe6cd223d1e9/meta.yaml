@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/436712115545057558/0f4113f320804a88b7fdbe6cd223d1e9/artifacts
+end_time: 1734055106982
+entry_point_name: ''
+experiment_id: '436712115545057558'
+lifecycle_stage: active
+run_id: 0f4113f320804a88b7fdbe6cd223d1e9
+run_name: popular-shark-264
+run_uuid: 0f4113f320804a88b7fdbe6cd223d1e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734055106976
+status: 3
+tags: []
+user_id: macbookair

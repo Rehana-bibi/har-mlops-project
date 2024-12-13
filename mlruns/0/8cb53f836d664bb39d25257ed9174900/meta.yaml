@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/8cb53f836d664bb39d25257ed9174900/artifacts
+end_time: 1734066272897
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8cb53f836d664bb39d25257ed9174900
+run_name: spiffy-shoat-741
+run_uuid: 8cb53f836d664bb39d25257ed9174900
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734066268618
+status: 3
+tags: []
+user_id: macbookair

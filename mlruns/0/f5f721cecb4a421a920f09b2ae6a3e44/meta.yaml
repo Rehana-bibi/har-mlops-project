@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/f5f721cecb4a421a920f09b2ae6a3e44/artifacts
+end_time: 1734066268416
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f5f721cecb4a421a920f09b2ae6a3e44
+run_name: gregarious-mare-941
+run_uuid: f5f721cecb4a421a920f09b2ae6a3e44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734066264230
+status: 3
+tags: []
+user_id: macbookair

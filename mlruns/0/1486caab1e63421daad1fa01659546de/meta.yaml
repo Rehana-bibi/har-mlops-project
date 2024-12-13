@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/1486caab1e63421daad1fa01659546de/artifacts
+end_time: 1734016934486
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1486caab1e63421daad1fa01659546de
+run_name: mercurial-cat-169
+run_uuid: 1486caab1e63421daad1fa01659546de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734016916459
+status: 3
+tags: []
+user_id: macbookair

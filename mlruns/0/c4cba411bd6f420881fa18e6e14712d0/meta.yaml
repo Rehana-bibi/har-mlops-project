@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/c4cba411bd6f420881fa18e6e14712d0/artifacts
+end_time: 1734063289350
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c4cba411bd6f420881fa18e6e14712d0
+run_name: funny-wolf-688
+run_uuid: c4cba411bd6f420881fa18e6e14712d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734063287845
+status: 3
+tags: []
+user_id: macbookair

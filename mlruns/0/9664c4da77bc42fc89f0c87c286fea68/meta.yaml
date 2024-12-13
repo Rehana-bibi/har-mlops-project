@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookair/Desktop/har-mlops-project/mlruns/0/9664c4da77bc42fc89f0c87c286fea68/artifacts
+end_time: 1734064027624
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9664c4da77bc42fc89f0c87c286fea68
+run_name: auspicious-bee-32
+run_uuid: 9664c4da77bc42fc89f0c87c286fea68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734064023331
+status: 3
+tags: []
+user_id: macbookair
